@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoogleFinanceSuite">
+    <test name="AllTests">
+        <classes>
+            <class name="com.google_finance.runner.CukesRunner"/>
+        </classes>
+    </test>
+
+    <test name="FailedTestsRerun">
+        <classes>
+            <class name="com.google_finance.runner.FailedTestRunner"/>
+        </classes>
+    </test>
+</suite>
+
