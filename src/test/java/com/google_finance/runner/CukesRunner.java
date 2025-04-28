@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        features = "src/test/resources/*.feature",
+        features = "src/test/resources/googleFinance.feature",
         glue = "com.google_finance.steps",
         plugin = {
                 "html:target/cucumber-reports.html",

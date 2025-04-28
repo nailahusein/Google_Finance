@@ -6,15 +6,15 @@ import java.util.Properties;
 
 public class ConfigurationReader {
 
-    //1- Create the Properties object (create object)
-    //make it "private" so we are limiting access to the object
+    //1- Creating the Properties object (create object)
+    //making it "private" so I am limiting access to the object
     //"static" is to make sure its created and loaded before everything else.
     private static Properties properties = new Properties();
 
     static{
 
         try {
-            //2- Open file using FileInputStream (open file)
+            //2- Opening file using FileInputStream (open file)
             FileInputStream file = new FileInputStream("configuration.properties");
             //3- Load the "properties" object with "file" (load properties)
             properties.load(file);
