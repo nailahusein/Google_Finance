@@ -8,7 +8,7 @@ It verifies stock symbols from Google Finance against an expected collection.
 ## Tech Stack
 - Java 17
 - Selenium WebDriver 4.19.1
-- TestNG 7.9.0
+- TestNG 7.7.1
 - Maven
 - WebDriverManager 5.8.0
 - Lombok 1.18.32
