@@ -9,8 +9,8 @@ import io.cucumber.testng.CucumberOptions;
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
-        features = "src/test/resources/features",
-        glue = "com/project_name/step_definitions",
+        features = "src/test/resources",
+        glue = "com/google_finance/steps",
         dryRun = true,
         tags = "",
         publish = true

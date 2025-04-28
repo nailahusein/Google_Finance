@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "@target/rerun.txt", // Rerun file path
-        glue = "com/project_name/step_definitions"
+        glue = "com/google_finance/steps"
 )
 
 public class FailedTestRunner extends AbstractTestNGCucumberTests {
