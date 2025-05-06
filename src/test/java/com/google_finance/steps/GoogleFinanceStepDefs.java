@@ -21,11 +21,11 @@ public class GoogleFinanceStepDefs {
     GoogleFinancePage googleFinancePage = new GoogleFinancePage();
     List<String> retrievedSymbols = googleFinancePage.getStockSymbols();
 
-    @Given("the user navigates to the Google Finance page")
-    public void the_user_navigates_to_the_google_finance_page() {
-        driver.get(ConfigurationReader.getProperty("url"));
-        BrowserUtils.waitFor(3);
-    }
+//    @Given("the user navigates to the Google Finance page")
+//    public void the_user_navigates_to_the_google_finance_page() {
+//        driver.get(ConfigurationReader.getProperty("url"));
+//        BrowserUtils.waitFor(3);
+//    }
 
     @When("the user verifies that the page title contains {string}")
     public void theUserVerifiesThatThePageTitleContains(String expectedTitle) {

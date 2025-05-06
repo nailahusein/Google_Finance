@@ -1,7 +1,7 @@
 Feature: Google Finance - Stock Symbol Comparison
 
   Scenario: Compare Stock Symbols from the page and expected list
-    Given the user navigates to the Google Finance page
+  #  Given the user navigates to the Google Finance page
     When the user verifies that the page title contains "Google Finance"
     And the user retrieves the stock symbols and compares them with "expectedSymbols"
       | NFLX |
